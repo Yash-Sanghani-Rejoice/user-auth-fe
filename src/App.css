@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+a:hover {
+  text-decoration: none;
+  color: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --padding: 50px 0px;
+  --white: #fff;
+  --black: #000;
+}
+
+/* ==============login_page================= */
+.login_page {
+  padding: var(--padding);
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.main_div {
+  background: rgba(217, 217, 217, 0.13);
+  backdrop-filter: blur(21px);
+  border-radius: 24px;
+  padding: 30px;
+}
+
+.welcome h3 {
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--black);
+}
+
+.welcome h6 {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--black);
+  opacity: 0.7;
+}
+
+.welcome h6 span {
+  font-weight: 700;
+}
+
+.from_data {
+  padding-top: 30px;
+}
+
+.from_data .form-control {
+  background: #b6b2b885;
+  backdrop-filter: blur(20px);
+  border-radius: 5px;
+  padding: 13px 15px;
+  backdrop-filter: blur(20px);
+  border: 1.5px solid #ffffff !important;
+}
+
+::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--black) !important;
+}
+
+.forget {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--white);
+  text-align: end;
+}
+
+.from_data .sign {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--white);
+  width: 100%;
+  background-color: #151515;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+}
+.from_data .sign:hover {
+  background: #151515 !important;
+}
+.from_data.form-control:focus {
+  border-color: transparent !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.img_sub img {
+  width: 100%;
+}
+
+/* ==============DashboardPage================= */
+.dashboard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.dashboard .jenny h2 {
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--black);
+}
+
+.dashboard .jenny h6 {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--black);
+  opacity: 0.7;
+}
+.subjenny {
+  background: #b6b2b885;
+  backdrop-filter: blur(20px);
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  padding: 20px 15px;
+  min-width: 300px;
+}
+.subjenny .control-bottom-border {
+  background: none;
+  padding: 0px;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.23);
+}
+.form-label {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--black);
+}
